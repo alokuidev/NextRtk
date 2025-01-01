@@ -2,10 +2,11 @@
 
 import { useSelector,useDispatch } from "react-redux"
 import { removeUser } from "../redux/slice";
+import { useEffect } from "react";
 export default function page(){
     const userData = useSelector((data) => data.users);
     const dispatch = useDispatch();
-    
+  
     return (
         <div className="user-list-section">
               <h2>User List</h2>

@@ -17,7 +17,7 @@ export default function page(){
                             <div>{elem.email}</div>
                             <div
                               onClick={() => dispatch(removeUser(elem.id))}
-                              style={{ fontSize: "16px", color: "red", cursor: "pointer" }}
+                              style={{ fontSize: "16px", color: "darkred", cursor: "pointer" }}
                             >
                               delete
                             </div>

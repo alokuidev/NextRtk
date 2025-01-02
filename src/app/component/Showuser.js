@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { removeUser } from "../redux/slice";
 
 export default function Showuser() {
-  const userData = useSelector((data) => data.users);
+  const userData = useSelector((data) => data.userData.users);
   const dispatch = useDispatch();
   return (
     <div className="user-list-section">

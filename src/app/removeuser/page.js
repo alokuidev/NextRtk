@@ -4,7 +4,7 @@ import { useSelector,useDispatch } from "react-redux"
 import { removeUser } from "../redux/slice";
 import { useEffect } from "react";
 export default function page(){
-    const userData = useSelector((data) => data.users);
+    const userData = useSelector((data) => data.userData.users);
     const dispatch = useDispatch();
   
     return (

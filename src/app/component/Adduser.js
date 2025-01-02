@@ -41,6 +41,8 @@ export default function Adduser() {
         <button type="submit" onClick={userDispatch}>Add User</button>
       </form>
       <Link href='/removeuser' style={{marginTop:'10px',display:'inline-block',fontSize:'14px',fontFamily:'math',color:'darkred'}}>Remove user page</Link>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <Link href='/todolist' style={{marginTop:'10px',display:'inline-block',fontSize:'14px',fontFamily:'math',color:'darkred'}}>Go To TodoList</Link>
     </div>
   );
 }

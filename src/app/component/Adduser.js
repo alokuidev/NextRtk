@@ -43,6 +43,8 @@ export default function Adduser() {
       <Link href='/removeuser' style={{marginTop:'10px',display:'inline-block',fontSize:'14px',fontFamily:'math',color:'darkred'}}>Remove user page</Link>
       &nbsp;&nbsp;|&nbsp;&nbsp;
       <Link href='/todolist' style={{marginTop:'10px',display:'inline-block',fontSize:'14px',fontFamily:'math',color:'darkred'}}>Go To TodoList</Link>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <Link href='/apiusers' style={{marginTop:'10px',display:'inline-block',fontSize:'14px',fontFamily:'math',color:'darkred'}}>Go To API Users List Page</Link>
     </div>
   );
 }
